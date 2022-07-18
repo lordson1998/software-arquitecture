@@ -1,17 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>SoftwareArquitecture</title>
-    <base href="/">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link href="/dist/output.css" rel="stylesheet">
-</head>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontSize: {
+            sm: ['14px', '20px'],
+            base: ['30px', '25px'],
+            lg: ['50px', '45px'],
+            xl: ['100px', '95px'],
+            titulos: ['40px', '35px'],
+          },
+          extend: {
+            space: {
+              '5px': '5px',
+            },
+            colors: {},
+          },
+        },
+      };
+    </script>
+  </head>
 
-<body>
+  <body>
     <app-root></app-root>
-</body>
-
+  </body>
 </html>
