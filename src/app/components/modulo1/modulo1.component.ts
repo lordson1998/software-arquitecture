@@ -5,7 +5,7 @@ import { routes } from '../../app-routing.module';
 @Component({
   selector: 'app-modulo1',
   templateUrl: './modulo1.component.html',
-  styleUrls: []
+  styleUrls: ['./modulo1.component.css']
 })
 export class Modulo1Component implements OnInit {
 
